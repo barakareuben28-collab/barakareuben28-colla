@@ -5,30 +5,30 @@ export default function Footer() {
 
   const footerLinks = {
     'Our Products': [
-      { label: 'Favourite Things', href: '#' },
-      { label: 'The Support Suite', href: '#' },
-      { label: 'The Sales Suite', href: '#' },
+      { label: 'Office Desks', href: '#' },
+      { label: 'Ergonomic Chairs', href: '#' },
+      { label: 'Storage Solutions', href: '#' },
     ],
-    'Top Features': [
-      { label: 'Support', href: '#' },
-      { label: 'Guide', href: '#' },
-      { label: 'Ticketing System', href: '#' },
+    'Categories': [
+      { label: 'Lighting', href: '#' },
+      { label: 'Accessories', href: '#' },
+      { label: 'Workstations', href: '#' },
     ],
     Resources: [
-      { label: 'Knowledge Base', href: '#' },
-      { label: 'Community Forums', href: '#' },
-      { label: 'Help Desk Software', href: '#' },
+      { label: 'Buying Guide', href: '#' },
+      { label: 'Setup Tips', href: '#' },
+      { label: 'Warranty Info', href: '#' },
     ],
     Company: [
-      { label: 'Product Support', href: '#' },
-      { label: 'Request Demo', href: '#' },
-      { label: 'Library', href: '#' },
+      { label: 'About OfficeHub', href: '#' },
+      { label: 'Our Team', href: '#' },
+      { label: 'Blog', href: '#' },
     ],
-    'For Enterprise': [
-      { label: 'About Us', href: '#' },
-      { label: 'Press', href: '#' },
-      { label: 'Investors', href: '#' },
-      { label: 'Events', href: '#' },
+    Support: [
+      { label: 'Contact Us', href: '#' },
+      { label: 'Shipping Info', href: '#' },
+      { label: 'Returns', href: '#' },
+      { label: 'FAQ', href: '#' },
     ],
   };
 
@@ -39,12 +39,12 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8 mb-12">
           {/* Brand */}
           <div>
-            <p className="font-bold text-lg text-neutral-900 mb-4">weCan</p>
+            <p className="font-bold text-lg text-neutral-900 mb-4">OfficeHub</p>
             <div className="flex gap-4">
               <a href="#" className="text-neutral-600 hover:text-neutral-900 text-sm">instagram</a>
               <a href="#" className="text-neutral-600 hover:text-neutral-900 text-sm">facebook</a>
               <a href="#" className="text-neutral-600 hover:text-neutral-900 text-sm">twitter</a>
-              <a href="#" className="text-neutral-600 hover:text-neutral-900 text-sm">github</a>
+              <a href="#" className="text-neutral-600 hover:text-neutral-900 text-sm">linkedin</a>
             </div>
           </div>
 

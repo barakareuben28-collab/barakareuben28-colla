@@ -10,19 +10,19 @@ export default function Hero() {
           {/* Left Content */}
           <div className="order-2 lg:order-1">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900 mb-4 leading-tight">
-              Creative Home
+              Professional Office
               <br />
-              <span className="text-primary-600">Simplify your</span>
+              <span className="text-primary-600">Premium Equipment</span>
               <br />
-              Furniture
+              Solutions
             </h1>
 
             <p className="text-sm md:text-base text-neutral-600 mb-6 leading-relaxed max-w-xl">
-              We create your home more aesthetic and comfortable with our premium furniture collection.
+              We provide high-quality office equipment and workspace solutions to enhance your productivity and comfort.
             </p>
 
             <Button variant="primary" size="md">
-              Shop Now
+              Explore Products
             </Button>
           </div>
 
@@ -30,8 +30,8 @@ export default function Hero() {
           <div className="order-1 lg:order-2">
             <div className="rounded-xl overflow-hidden shadow-lg">
               <ResponsiveImage
-                src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&h=600&fit=crop"
-                alt="Beautiful modern furniture"
+                src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&h=600&fit=crop"
+                alt="Modern office workspace"
                 priority={true}
               />
             </div>
@@ -41,20 +41,20 @@ export default function Hero() {
         {/* Stats Section */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-12 pt-12 border-t border-neutral-100">
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">7</div>
-            <p className="text-xs md:text-sm text-neutral-600">Year Experience</p>
+            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">15+</div>
+            <p className="text-xs md:text-sm text-neutral-600">Years Experience</p>
           </div>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">2</div>
-            <p className="text-xs md:text-sm text-neutral-600">Opened in the country</p>
+            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">500+</div>
+            <p className="text-xs md:text-sm text-neutral-600">Happy Clients</p>
           </div>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">10k+</div>
-            <p className="text-xs md:text-sm text-neutral-600">Furniture sold</p>
+            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">1000+</div>
+            <p className="text-xs md:text-sm text-neutral-600">Products Available</p>
           </div>
           <div className="text-center">
-            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">260+</div>
-            <p className="text-xs md:text-sm text-neutral-600">Variant Furniture</p>
+            <div className="text-2xl md:text-3xl font-bold text-neutral-900 mb-1">24/7</div>
+            <p className="text-xs md:text-sm text-neutral-600">Customer Support</p>
           </div>
         </div>
       </div>

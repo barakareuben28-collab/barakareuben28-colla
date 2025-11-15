@@ -6,26 +6,26 @@ import SectionWrapper from '../common/SectionWrapper';
 export default function Features() {
   const services = [
     { 
-      title: 'Valuation Services', 
-      description: 'Sometimes features require a short description. This can be detailed description' 
+      title: 'Free Consultation', 
+      description: 'Get expert advice on choosing the right office equipment for your workspace' 
     },
     { 
-      title: 'Development of Furniture Models', 
-      description: 'Sometimes features require a short description. This can be detailed description' 
+      title: 'Installation Service', 
+      description: 'Professional setup and installation of all office equipment at your location' 
     },
   ];
 
-  const categories = ['Chair', 'Bed', 'Cupboard', 'Lighting'];
+  const categories = ['Desks', 'Chairs', 'Storage', 'Lighting'];
 
   const products = [
-    { name: 'Ceiling Light', price: '$75.00', originalPrice: '$82.00' },
-    { name: 'Wood Chair', price: '$50.00', originalPrice: null },
-    { name: 'Papper Cupboard', price: '$70.00', originalPrice: null },
-    { name: 'Ole Gundorse Spring...', price: '$105.00', originalPrice: '$120.00' },
-    { name: 'Treos Seroes 911', price: '$82.00', originalPrice: '$100.00' },
-    { name: 'Multi bilderman slibber...', price: '$200.00', originalPrice: '$210.00' },
-    { name: 'XORA corner desk', price: '$45.00', originalPrice: '$50.00' },
-    { name: 'Black Forest Series wo...', price: '$320.00', originalPrice: '$325.00' },
+    { name: 'Executive Desk', price: '$299.00', originalPrice: '$349.00' },
+    { name: 'Ergonomic Chair', price: '$199.00', originalPrice: null },
+    { name: 'Filing Cabinet', price: '$149.00', originalPrice: null },
+    { name: 'LED Desk Lamp', price: '$89.00', originalPrice: '$109.00' },
+    { name: 'Monitor Stand', price: '$45.00', originalPrice: '$55.00' },
+    { name: 'Keyboard Tray', price: '$65.00', originalPrice: '$79.00' },
+    { name: 'Office Organizer', price: '$34.99', originalPrice: '$45.00' },
+    { name: 'Premium Desk Mat', price: '$79.99', originalPrice: '$99.00' },
   ];
 
   return (
@@ -34,16 +34,16 @@ export default function Features() {
       <SectionWrapper id="promo" bgColor="bg-gradient-to-r from-primary-50 to-secondary-50">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-16">
           <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-3">Premium Collection</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-3">Premium Office Gear</h2>
             <p className="text-sm md:text-base text-neutral-700 mb-4 leading-relaxed">
-              Discover our exclusive range of handcrafted furniture pieces designed for modern living.
+              Discover our exclusive range of high-quality office equipment designed for modern workspaces.
             </p>
-            <Button variant="primary" size="sm">Explore Now</Button>
+            <Button variant="primary" size="sm">View Collection</Button>
           </div>
           <div className="rounded-lg overflow-hidden shadow-md">
             <ResponsiveImage
-              src="https://images.unsplash.com/photo-1586023566565-e9a020bcf73c?w=600&h=400&fit=crop"
-              alt="Premium furniture collection"
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
+              alt="Premium office equipment collection"
             />
           </div>
         </div>
@@ -52,9 +52,9 @@ export default function Features() {
       {/* Services Section */}
       <SectionWrapper id="features" bgColor="bg-white" bordered>
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-3">We Create your home more aestetic</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-3">Premium Office Solutions</h2>
           <p className="text-sm md:text-base text-neutral-600 max-w-3xl mx-auto">
-            Furniture power is a software as services for multipurpose business management system
+            High-quality equipment and workspace solutions for modern businesses
           </p>
         </div>
 
@@ -72,11 +72,11 @@ export default function Features() {
       {/* New In Store Section */}
       <SectionWrapper id="new-store" bgColor="bg-white">
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-3">New In Store Now</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-3">Featured Products</h2>
           <p className="text-sm md:text-base text-neutral-600 mb-6">
-            Get the latest items immediately with promo prices
+            Check out our latest office equipment with special discounts
           </p>
-          <Button variant="outline" size="sm">Check All</Button>
+          <Button variant="outline" size="sm">View All Products</Button>
         </div>
 
         {/* Categories */}
@@ -113,28 +113,28 @@ export default function Features() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="rounded-lg overflow-hidden shadow-md">
             <ResponsiveImage
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&h=400&fit=crop"
-              alt="Modern furniture showcase"
+              src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&h=400&fit=crop"
+              alt="Modern office workspace"
             />
           </div>
           <div className="flex flex-col justify-center">
-            <h3 className="text-xl md:text-2xl font-bold text-neutral-900 mb-2">Elegant Design</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-neutral-900 mb-2">Ergonomic Design</h3>
             <p className="text-sm md:text-base text-neutral-600 leading-relaxed">
-              Our furniture combines elegance with functionality. Each piece is carefully crafted to enhance your living space with contemporary aesthetics and durability.
+              Our office equipment is designed with ergonomics in mind. Each product enhances comfort and productivity while maintaining a modern, professional aesthetic.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="flex flex-col justify-center">
-            <h3 className="text-xl md:text-2xl font-bold text-neutral-900 mb-2">Quality Assured</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-neutral-900 mb-2">Built to Last</h3>
             <p className="text-sm md:text-base text-neutral-600 leading-relaxed">
-              Premium materials and expert craftsmanship ensure that every item in our collection meets the highest standards of quality and longevity.
+              Premium materials and expert craftsmanship ensure durability. All our office equipment meets international quality standards and comes with comprehensive warranties.
             </p>
           </div>
           <div className="rounded-lg overflow-hidden shadow-md">
             <ResponsiveImage
-              src="https://images.unsplash.com/photo-1546439281-a78dff71a8d0?w=500&h=400&fit=crop"
-              alt="Quality furniture craftsmanship"
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop"
+              alt="Premium office equipment"
             />
           </div>
         </div>
@@ -143,9 +143,9 @@ export default function Features() {
       {/* Description Section */}
       <SectionWrapper id="description" bgColor="bg-white" bordered>
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">The Best Furniture Manufacturer of your choice</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">Your Complete Office Solution Partner</h2>
           <p className="text-sm md:text-base text-neutral-600">
-            Furniture power is a software as services for multipurpose business management system, especially for them who are running two or more business. Explore the future of Furniture power
+            We provide comprehensive office equipment solutions for businesses of all sizes. From startups to enterprises, we help create productive, comfortable, and professional workspaces.
           </p>
         </div>
       </SectionWrapper>

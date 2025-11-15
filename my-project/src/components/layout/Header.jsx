@@ -16,7 +16,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-neutral-900">
-          weCan
+          OfficeHub
         </div>
 
         {/* Desktop Navigation */}
@@ -39,7 +39,7 @@ export default function Header() {
             size="md"
             className="hidden sm:flex"
           >
-            Shop Now
+            Browse Products
           </Button>
           
           {/* Mobile Menu Toggle */}
